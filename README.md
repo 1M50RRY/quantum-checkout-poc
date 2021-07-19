@@ -1,3 +1,2 @@
-# koa-template
-
-Koa boilerplate template for create-koa-application.
+- `localhost:3000/` - frames example, `4242 4242 4242 4242 05/28 100` - test card, then copy paste token to `POST localhost:3000/api/v1/payment/(card | 3ds) {"token": your_token }`
+- change webhook domain at https://sandbox.checkout.com/settings/channels to see logged response from incoming webhook events (i've left credentials of the account in the task comments)
